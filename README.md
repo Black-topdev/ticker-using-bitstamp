@@ -1,748 +1,90 @@
-Contribution: 2022-01-04 00:00
+<div align="center">
+  <h1>ticker test</h1>
+  <p>Made by <a href="">Black</a></p>
+  
+  [[Bitstamp](https://www.bitstamp.net/api/v2/ticker/btcusd)]
+  [[Bitfinex](https://api-pub.bitfinex.com/v2/tickers?symbols=tBTCUSD)]
+  [[CoinBase](https://api.coinbase.com/v2/exchange-rates?currency=BTC)]
+</div>
 
-Contribution: 2022-01-04 00:01
+## Features
 
-Contribution: 2022-01-04 00:02
+This repository is packed with:
 
-Contribution: 2022-01-04 00:03
+-  Next.js 12
+-  React 18
+-  TypeScript
+-  Tailwind CSS 3 — Configured with CSS Variables to extend the **primary** color
+-  Pre-built Components — Components that will **automatically adapt** with your brand color, [check here for the demo](https://tsnext-tw.thcl.dev/components)
+-  Jest — Configured for unit testing
+-  Absolute Import and Path Alias — Import components using `@/` prefix
+-  ESLint — Find and fix problems in your code, also will **auto sort** your imports
+-  Prettier — Format your code consistently
+-  Conventional Commit Lint — Make sure you & your teammates follow conventional commit
+-  Standard Version Changelog — Generate your changelog using `yarn release`
+-  Github Actions — Lint your code on PR
+-  Automatic Branch and Issue Autolink — Branch will be automatically created on issue **assign**, and auto linked on PR
+-  Snippets — A collection of useful snippets
+- 🗺 Site Map — Automatically generate sitemap.xml
+-  Expansion Pack — Easily install common libraries, additional components, and configs
 
-Contribution: 2022-01-04 00:04
+See the 👉 [feature details and changelog](https://github.com/Credit-First/ticker-test/blob/main/CHANGELOG.md) 👈 for more.
 
-Contribution: 2022-01-04 00:05
+You can also check all of the **details and demos** on my blog post:
 
-Contribution: 2022-01-04 00:06
 
-Contribution: 2022-01-04 00:07
+## Getting Started
 
-Contribution: 2022-01-04 00:08
+### 1. Clone this template using one of the three ways:
 
-Contribution: 2022-01-04 00:09
+1. Use this repository as template
 
-Contribution: 2022-01-04 00:10
+2. Using `create-next-app`
 
-Contribution: 2022-01-04 00:11
+   ```bash
+   npx create-next-app -e https://github.com/Credit-First/ticker-test project-name
+   ```
 
-Contribution: 2022-01-04 00:12
+3. Deploy to Vercel
 
-Contribution: 2022-01-04 00:13
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FCredit-First%2Fticker-test)
 
-Contribution: 2022-01-04 00:14
+### 2. Install dependencies
 
-Contribution: 2022-01-04 00:15
+It is encouraged to use **yarn** so the husky hooks can work properly.
 
-Contribution: 2022-01-07 00:00
+```bash
+yarn install
+```
 
-Contribution: 2022-01-07 00:01
+### 3. Run the development server
 
-Contribution: 2022-01-07 00:02
+You can start the server using this command:
 
-Contribution: 2022-01-07 00:03
+```bash
+yarn dev
+```
 
-Contribution: 2022-01-07 00:04
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `src/pages/index.tsx`.
 
-Contribution: 2022-01-07 00:05
+### 4. Change defaults
 
-Contribution: 2022-01-07 00:06
+There are some things you need to change including title, urls, favicons, etc.
 
-Contribution: 2022-01-07 00:07
+Find all comments with !STARTERCONF, then follow the guide.
 
-Contribution: 2022-01-07 00:08
+Don't forget to change the package name in package.json
 
-Contribution: 2022-01-10 00:00
+### 5. Commit Message Convention
 
-Contribution: 2022-01-10 00:01
+This starter is using [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/), it is mandatory to use it to commit changes.
 
-Contribution: 2022-01-10 00:02
+## Expansion Pack 📦
 
-Contribution: 2022-01-10 00:03
+This starter is now equipped with an [expansion pack](https://github.com/Credit-First/expansion-pack).
 
-Contribution: 2022-01-10 00:04
+You can easily add expansion such as React Hook Form + Components, Storybook, and more just using a single command line.
 
-Contribution: 2022-01-11 00:00
+https://user-images.githubusercontent.com/55318172/146631994-e1cac137-1664-4cfe-950b-a96decc1eaa6.mp4
 
-Contribution: 2022-01-11 00:01
-
-Contribution: 2022-01-11 00:02
-
-Contribution: 2022-01-11 00:03
-
-Contribution: 2022-01-11 00:04
-
-Contribution: 2022-01-11 00:05
-
-Contribution: 2022-01-11 00:06
-
-Contribution: 2022-01-11 00:07
-
-Contribution: 2022-01-11 00:08
-
-Contribution: 2022-01-11 00:09
-
-Contribution: 2022-01-11 00:10
-
-Contribution: 2022-01-11 00:11
-
-Contribution: 2022-01-11 00:12
-
-Contribution: 2022-01-11 00:13
-
-Contribution: 2022-01-11 00:14
-
-Contribution: 2022-01-11 00:15
-
-Contribution: 2022-01-11 00:16
-
-Contribution: 2022-01-11 00:17
-
-Contribution: 2022-01-14 00:00
-
-Contribution: 2022-01-14 00:01
-
-Contribution: 2022-01-14 00:02
-
-Contribution: 2022-01-14 00:03
-
-Contribution: 2022-01-14 00:04
-
-Contribution: 2022-01-14 00:05
-
-Contribution: 2022-01-17 00:00
-
-Contribution: 2022-01-17 00:01
-
-Contribution: 2022-01-17 00:02
-
-Contribution: 2022-01-17 00:03
-
-Contribution: 2022-01-17 00:04
-
-Contribution: 2022-01-17 00:05
-
-Contribution: 2022-01-17 00:06
-
-Contribution: 2022-01-17 00:07
-
-Contribution: 2022-01-17 00:08
-
-Contribution: 2022-01-19 00:00
-
-Contribution: 2022-01-19 00:01
-
-Contribution: 2022-01-19 00:02
-
-Contribution: 2022-01-19 00:03
-
-Contribution: 2022-01-19 00:04
-
-Contribution: 2022-01-19 00:05
-
-Contribution: 2022-01-19 00:06
-
-Contribution: 2022-01-19 00:07
-
-Contribution: 2022-01-19 00:08
-
-Contribution: 2022-01-19 00:09
-
-Contribution: 2022-01-19 00:10
-
-Contribution: 2022-01-19 00:11
-
-Contribution: 2022-01-19 00:12
-
-Contribution: 2022-01-19 00:13
-
-Contribution: 2022-01-19 00:14
-
-Contribution: 2022-01-19 00:15
-
-Contribution: 2022-01-19 00:16
-
-Contribution: 2022-01-19 00:17
-
-Contribution: 2022-01-20 00:00
-
-Contribution: 2022-01-20 00:01
-
-Contribution: 2022-01-20 00:02
-
-Contribution: 2022-01-20 00:03
-
-Contribution: 2022-01-20 00:04
-
-Contribution: 2022-01-20 00:05
-
-Contribution: 2022-01-20 00:06
-
-Contribution: 2022-01-20 00:07
-
-Contribution: 2022-01-20 00:08
-
-Contribution: 2022-01-20 00:09
-
-Contribution: 2022-01-20 00:10
-
-Contribution: 2022-01-21 00:00
-
-Contribution: 2022-01-21 00:01
-
-Contribution: 2022-01-21 00:02
-
-Contribution: 2022-01-21 00:03
-
-Contribution: 2022-01-21 00:04
-
-Contribution: 2022-01-21 00:05
-
-Contribution: 2022-01-25 00:00
-
-Contribution: 2022-01-25 00:01
-
-Contribution: 2022-01-25 00:02
-
-Contribution: 2022-01-25 00:03
-
-Contribution: 2022-01-25 00:04
-
-Contribution: 2022-01-25 00:05
-
-Contribution: 2022-01-25 00:06
-
-Contribution: 2022-01-25 00:07
-
-Contribution: 2022-01-25 00:08
-
-Contribution: 2022-01-25 00:09
-
-Contribution: 2022-01-25 00:10
-
-Contribution: 2022-01-25 00:11
-
-Contribution: 2022-01-25 00:12
-
-Contribution: 2022-01-25 00:13
-
-Contribution: 2022-01-25 00:14
-
-Contribution: 2022-01-25 00:15
-
-Contribution: 2022-01-25 00:16
-
-Contribution: 2022-01-25 00:17
-
-Contribution: 2022-01-28 00:00
-
-Contribution: 2022-01-28 00:01
-
-Contribution: 2022-01-31 00:00
-
-Contribution: 2022-01-31 00:01
-
-Contribution: 2022-01-31 00:02
-
-Contribution: 2022-01-31 00:03
-
-Contribution: 2022-01-31 00:04
-
-Contribution: 2022-02-02 00:00
-
-Contribution: 2022-02-02 00:01
-
-Contribution: 2022-02-02 00:02
-
-Contribution: 2022-02-02 00:03
-
-Contribution: 2022-02-02 00:04
-
-Contribution: 2022-02-02 00:05
-
-Contribution: 2022-02-03 00:00
-
-Contribution: 2022-02-03 00:01
-
-Contribution: 2022-02-03 00:02
-
-Contribution: 2022-02-03 00:03
-
-Contribution: 2022-02-03 00:04
-
-Contribution: 2022-02-03 00:05
-
-Contribution: 2022-02-03 00:06
-
-Contribution: 2022-02-03 00:07
-
-Contribution: 2022-02-03 00:08
-
-Contribution: 2022-02-03 00:09
-
-Contribution: 2022-02-03 00:10
-
-Contribution: 2022-02-03 00:11
-
-Contribution: 2022-02-03 00:12
-
-Contribution: 2022-02-03 00:13
-
-Contribution: 2022-02-03 00:14
-
-Contribution: 2022-02-03 00:15
-
-Contribution: 2022-02-03 00:16
-
-Contribution: 2022-02-04 00:00
-
-Contribution: 2022-02-04 00:01
-
-Contribution: 2022-02-04 00:02
-
-Contribution: 2022-02-04 00:03
-
-Contribution: 2022-02-04 00:04
-
-Contribution: 2022-02-04 00:05
-
-Contribution: 2022-02-04 00:06
-
-Contribution: 2022-02-07 00:00
-
-Contribution: 2022-02-07 00:01
-
-Contribution: 2022-02-07 00:02
-
-Contribution: 2022-02-07 00:03
-
-Contribution: 2022-02-07 00:04
-
-Contribution: 2022-02-08 00:00
-
-Contribution: 2022-02-08 00:01
-
-Contribution: 2022-02-08 00:02
-
-Contribution: 2022-02-08 00:03
-
-Contribution: 2022-02-08 00:04
-
-Contribution: 2022-02-08 00:05
-
-Contribution: 2022-02-08 00:06
-
-Contribution: 2022-02-08 00:07
-
-Contribution: 2022-02-08 00:08
-
-Contribution: 2022-02-08 00:09
-
-Contribution: 2022-02-08 00:10
-
-Contribution: 2022-02-08 00:11
-
-Contribution: 2022-02-08 00:12
-
-Contribution: 2022-02-08 00:13
-
-Contribution: 2022-02-09 00:00
-
-Contribution: 2022-02-09 00:01
-
-Contribution: 2022-02-09 00:02
-
-Contribution: 2022-02-09 00:03
-
-Contribution: 2022-02-09 00:04
-
-Contribution: 2022-02-09 00:05
-
-Contribution: 2022-02-09 00:06
-
-Contribution: 2022-02-09 00:07
-
-Contribution: 2022-02-09 00:08
-
-Contribution: 2022-02-11 00:00
-
-Contribution: 2022-02-11 00:01
-
-Contribution: 2022-02-11 00:02
-
-Contribution: 2022-02-11 00:03
-
-Contribution: 2022-02-11 00:04
-
-Contribution: 2022-02-11 00:05
-
-Contribution: 2022-02-11 00:06
-
-Contribution: 2022-02-11 00:07
-
-Contribution: 2022-02-11 00:08
-
-Contribution: 2022-02-11 00:09
-
-Contribution: 2022-02-11 00:10
-
-Contribution: 2022-02-16 00:00
-
-Contribution: 2022-02-16 00:01
-
-Contribution: 2022-02-16 00:02
-
-Contribution: 2022-02-16 00:03
-
-Contribution: 2022-02-16 00:04
-
-Contribution: 2022-02-16 00:05
-
-Contribution: 2022-02-16 00:06
-
-Contribution: 2022-02-16 00:07
-
-Contribution: 2022-02-16 00:08
-
-Contribution: 2022-02-16 00:09
-
-Contribution: 2022-02-16 00:10
-
-Contribution: 2022-02-16 00:11
-
-Contribution: 2022-02-16 00:12
-
-Contribution: 2022-02-16 00:13
-
-Contribution: 2022-02-16 00:14
-
-Contribution: 2022-02-16 00:15
-
-Contribution: 2022-02-17 00:00
-
-Contribution: 2022-02-18 00:00
-
-Contribution: 2022-02-18 00:01
-
-Contribution: 2022-02-18 00:02
-
-Contribution: 2022-02-18 00:03
-
-Contribution: 2022-02-18 00:04
-
-Contribution: 2022-02-18 00:05
-
-Contribution: 2022-02-18 00:06
-
-Contribution: 2022-02-18 00:07
-
-Contribution: 2022-02-18 00:08
-
-Contribution: 2022-02-18 00:09
-
-Contribution: 2022-02-18 00:10
-
-Contribution: 2022-02-18 00:11
-
-Contribution: 2022-02-18 00:12
-
-Contribution: 2022-02-18 00:13
-
-Contribution: 2022-02-18 00:14
-
-Contribution: 2022-02-18 00:15
-
-Contribution: 2022-02-23 00:00
-
-Contribution: 2022-02-23 00:01
-
-Contribution: 2022-02-23 00:02
-
-Contribution: 2022-02-23 00:03
-
-Contribution: 2022-02-23 00:04
-
-Contribution: 2022-02-23 00:05
-
-Contribution: 2022-02-24 00:00
-
-Contribution: 2022-02-24 00:01
-
-Contribution: 2022-02-24 00:02
-
-Contribution: 2022-02-24 00:03
-
-Contribution: 2022-02-25 00:00
-
-Contribution: 2022-02-25 00:01
-
-Contribution: 2022-02-25 00:02
-
-Contribution: 2022-02-25 00:03
-
-Contribution: 2022-02-25 00:04
-
-Contribution: 2022-02-25 00:05
-
-Contribution: 2022-02-25 00:06
-
-Contribution: 2022-02-25 00:07
-
-Contribution: 2022-02-25 00:08
-
-Contribution: 2022-02-25 00:09
-
-Contribution: 2022-02-25 00:10
-
-Contribution: 2022-02-25 00:11
-
-Contribution: 2022-02-25 00:12
-
-Contribution: 2022-02-25 00:13
-
-Contribution: 2022-02-25 00:14
-
-Contribution: 2022-02-25 00:15
-
-Contribution: 2022-02-25 00:16
-
-Contribution: 2022-02-25 00:17
-
-Contribution: 2022-02-28 00:00
-
-Contribution: 2022-02-28 00:01
-
-Contribution: 2022-02-28 00:02
-
-Contribution: 2022-02-28 00:03
-
-Contribution: 2022-02-28 00:04
-
-Contribution: 2022-02-28 00:05
-
-Contribution: 2022-02-28 00:06
-
-Contribution: 2022-02-28 00:07
-
-Contribution: 2022-02-28 00:08
-
-Contribution: 2022-02-28 00:09
-
-Contribution: 2022-02-28 00:10
-
-Contribution: 2022-02-28 00:11
-
-Contribution: 2022-02-28 00:12
-
-Contribution: 2022-02-28 00:13
-
-Contribution: 2022-02-28 00:14
-
-Contribution: 2022-03-01 00:00
-
-Contribution: 2022-03-01 00:01
-
-Contribution: 2022-03-01 00:02
-
-Contribution: 2022-03-01 00:03
-
-Contribution: 2022-03-02 00:00
-
-Contribution: 2022-03-02 00:01
-
-Contribution: 2022-03-02 00:02
-
-Contribution: 2022-03-02 00:03
-
-Contribution: 2022-03-02 00:04
-
-Contribution: 2022-03-02 00:05
-
-Contribution: 2022-03-02 00:06
-
-Contribution: 2022-03-04 00:00
-
-Contribution: 2022-03-04 00:01
-
-Contribution: 2022-03-04 00:02
-
-Contribution: 2022-03-04 00:03
-
-Contribution: 2022-03-04 00:04
-
-Contribution: 2022-03-04 00:05
-
-Contribution: 2022-03-04 00:06
-
-Contribution: 2022-03-04 00:07
-
-Contribution: 2022-03-04 00:08
-
-Contribution: 2022-03-04 00:09
-
-Contribution: 2022-03-04 00:10
-
-Contribution: 2022-03-04 00:11
-
-Contribution: 2022-03-04 00:12
-
-Contribution: 2022-03-04 00:13
-
-Contribution: 2022-03-04 00:14
-
-Contribution: 2022-03-04 00:15
-
-Contribution: 2022-03-07 00:00
-
-Contribution: 2022-03-07 00:01
-
-Contribution: 2022-03-07 00:02
-
-Contribution: 2022-03-07 00:03
-
-Contribution: 2022-03-08 00:00
-
-Contribution: 2022-03-08 00:01
-
-Contribution: 2022-03-08 00:02
-
-Contribution: 2022-03-08 00:03
-
-Contribution: 2022-03-08 00:04
-
-Contribution: 2022-03-08 00:05
-
-Contribution: 2022-03-08 00:06
-
-Contribution: 2022-03-08 00:07
-
-Contribution: 2022-03-08 00:08
-
-Contribution: 2022-03-08 00:09
-
-Contribution: 2022-03-08 00:10
-
-Contribution: 2022-03-08 00:11
-
-Contribution: 2022-03-08 00:12
-
-Contribution: 2022-03-08 00:13
-
-Contribution: 2022-03-08 00:14
-
-Contribution: 2022-03-08 00:15
-
-Contribution: 2022-03-09 00:00
-
-Contribution: 2022-03-09 00:01
-
-Contribution: 2022-03-09 00:02
-
-Contribution: 2022-03-09 00:03
-
-Contribution: 2022-03-09 00:04
-
-Contribution: 2022-03-09 00:05
-
-Contribution: 2022-03-09 00:06
-
-Contribution: 2022-03-09 00:07
-
-Contribution: 2022-03-09 00:08
-
-Contribution: 2022-03-09 00:09
-
-Contribution: 2022-03-10 00:00
-
-Contribution: 2022-03-10 00:01
-
-Contribution: 2022-03-10 00:02
-
-Contribution: 2022-03-10 00:03
-
-Contribution: 2022-03-10 00:04
-
-Contribution: 2022-03-10 00:05
-
-Contribution: 2022-03-10 00:06
-
-Contribution: 2022-03-10 00:07
-
-Contribution: 2022-03-10 00:08
-
-Contribution: 2022-03-10 00:09
-
-Contribution: 2022-03-10 00:10
-
-Contribution: 2022-03-11 00:00
-
-Contribution: 2022-03-11 00:01
-
-Contribution: 2022-03-14 00:00
-
-Contribution: 2022-03-14 00:01
-
-Contribution: 2022-03-14 00:02
-
-Contribution: 2022-03-14 00:03
-
-Contribution: 2022-03-16 00:00
-
-Contribution: 2022-03-16 00:01
-
-Contribution: 2022-03-16 00:02
-
-Contribution: 2022-03-16 00:03
-
-Contribution: 2022-03-16 00:04
-
-Contribution: 2022-03-16 00:05
-
-Contribution: 2022-03-16 00:06
-
-Contribution: 2022-03-16 00:07
-
-Contribution: 2022-03-16 00:08
-
-Contribution: 2022-03-16 00:09
-
-Contribution: 2022-03-16 00:10
-
-Contribution: 2022-03-16 00:11
-
-Contribution: 2022-03-16 00:12
-
-Contribution: 2022-03-16 00:13
-
-Contribution: 2022-03-16 00:14
-
-Contribution: 2022-03-17 00:00
-
-Contribution: 2022-03-17 00:01
-
-Contribution: 2022-03-18 00:00
-
-Contribution: 2022-03-18 00:01
-
-Contribution: 2022-03-18 00:02
-
-Contribution: 2022-03-18 00:03
-
-Contribution: 2022-03-18 00:04
-
-Contribution: 2022-03-18 00:05
-
-Contribution: 2022-03-18 00:06
-
-Contribution: 2022-03-18 00:07
-
-Contribution: 2022-03-18 00:08
-
-Contribution: 2022-03-18 00:09
-
-Contribution: 2022-03-18 00:10
-
-Contribution: 2022-03-21 00:00
-
-Contribution: 2022-03-21 00:01
-
-Contribution: 2022-03-21 00:02
-
-Contribution: 2022-03-21 00:03
-
+Check out the [expansion pack repository](https://github.com/Credit-First/expansion-pack) for the commands
